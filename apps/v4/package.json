@@ -14,6 +14,15 @@
     "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
     "registry:build": "tsx --tsconfig ./tsconfig.scripts.json ./scripts/build-registry.mts && prettier --log-level silent --write \"registry/**/*.{ts,tsx,json,mdx}\" --cache",
     "registry:capture": "tsx --tsconfig ./tsconfig.scripts.json ./scripts/capture-registry.mts",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:validation": "playwright test tests/composition-validation.spec.ts",
+    "test:visual": "playwright test tests/visual-regression.spec.ts",
+    "test:install": "pnpm add -D @playwright/test && npx playwright install",
+    "quality:check": "node scripts/quality-check.js",
+    "quality:fix": "npm run lint:fix && npm run format:write",
+    "pre-commit": "npm run quality:check",
+    "prepare": "husky install",
     "postinstall": "fumadocs-mdx"
   },
   "dependencies": {

@@ -8,6 +8,12 @@ import { ScrollArea, ScrollBar } from "@/registry/new-york-v4/ui/scroll-area"
 
 const examples = [
   {
+    name: "AI Showcase",
+    href: "/examples/ai-showcase",
+    code: "https://github.com/shadcn/ui/tree/main/apps/v4/app/(app)/examples/ai-showcase",
+    hidden: false,
+  },
+  {
     name: "Dashboard",
     href: "/examples/dashboard",
     code: "https://github.com/shadcn/ui/tree/main/apps/v4/app/(app)/examples/dashboard",
