@@ -16,11 +16,11 @@
         "V0_EDIT_SECRET",
         "DEPLOYMENT_PROTECTION_BYPASS"
       ],
-      "outputs": ["dist/**", ".next/**"]
+      "outputs": ["dist/**", ".next/**", "!.next/cache/**", ".contentlayer/**"]
     },
     "preview": {
       "env": ["NEXT_PUBLIC_APP_URL"],
-      "outputs": ["dist/**", ".next/**"]
+      "outputs": ["dist/**", ".next/**", "!.next/cache/**", ".contentlayer/**"]
     },
     "start": {
       "dependsOn": ["^build"]
