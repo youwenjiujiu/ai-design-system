@@ -1,5 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc",
+  "extends": ["eslint-config-custom"],
   "overrides": [
     {
       "files": ["scripts/**/*.{ts,mts}"],
