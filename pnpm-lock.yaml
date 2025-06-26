@@ -58,10 +58,10 @@ importers:
         version: 7.37.4(eslint@8.57.1)
       eslint-plugin-tailwindcss:
         specifier: 3.13.1
-        version: 3.13.1(tailwindcss@3.4.6(ts-node@10.9.2(@types/node@20.17.16)(typescript@5.7.3)))
+        version: 3.13.1(tailwindcss@3.4.6(ts-node@10.9.2(@types/node@20.5.1)(typescript@5.7.3)))
       motion:
         specifier: ^12.12.1
-        version: 12.15.0(@emotion/is-prop-valid@1.3.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 12.15.0(@emotion/is-prop-valid@1.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       postcss:
         specifier: ^8.4.24
         version: 8.5.1
@@ -76,10 +76,10 @@ importers:
         version: 23.11.1(typescript@5.7.3)
       tailwindcss:
         specifier: 3.4.6
-        version: 3.4.6(ts-node@10.9.2(@types/node@20.17.16)(typescript@5.7.3))
+        version: 3.4.6(ts-node@10.9.2(@types/node@20.5.1)(typescript@5.7.3))
       tailwindcss-animate:
         specifier: ^1.0.5
-        version: 1.0.7(tailwindcss@3.4.6(ts-node@10.9.2(@types/node@20.17.16)(typescript@5.7.3)))
+        version: 1.0.7(tailwindcss@3.4.6(ts-node@10.9.2(@types/node@20.5.1)(typescript@5.7.3)))
       tsx:
         specifier: ^4.1.4
         version: 4.19.2
@@ -265,8 +265,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       fumadocs-mdx:
-        specifier: ^11.6.3
-        version: 11.6.6(acorn@8.14.0)(fumadocs-core@15.4.2(@types/react@19.1.2)(next@15.3.1(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(next@15.3.1(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
+        specifier: ^11.6.9
+        version: 11.6.9(acorn@8.15.0)(fumadocs-core@15.4.2(@types/react@19.1.2)(next@15.3.1(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(next@15.3.1(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@5.4.15(@types/node@20.17.16)(lightningcss@1.29.1))
       fumadocs-ui:
         specifier: ^15.3.1
         version: 15.4.2(@types/react-dom@19.1.2(@types/react@19.1.2))(@types/react@19.1.2)(next@15.3.1(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.8)
@@ -537,7 +537,7 @@ importers:
         version: 1.0.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       contentlayer2:
         specifier: ^0.4.6
-        version: 0.4.6(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
+        version: 0.4.6(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
       date-fns:
         specifier: ^2.30.0
         version: 2.30.0
@@ -576,7 +576,7 @@ importers:
         version: 14.3.0-canary.43(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-contentlayer2:
         specifier: ^0.4.6
-        version: 0.4.6(acorn@8.14.0)(contentlayer2@0.4.6(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0))(esbuild@0.25.0)(markdown-wasm@1.2.0)(next@14.3.0-canary.43(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 0.4.6(acorn@8.15.0)(contentlayer2@0.4.6(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0))(esbuild@0.25.0)(markdown-wasm@1.2.0)(next@14.3.0-canary.43(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-themes:
         specifier: ^0.4.3
         version: 0.4.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -742,7 +742,7 @@ importers:
         version: 4.1.5
       msw:
         specifier: ^2.7.1
-        version: 2.7.1(@types/node@22.13.0)(typescript@4.9.5)
+        version: 2.7.1(@types/node@20.17.16)(typescript@4.9.5)
       node-fetch:
         specifier: ^3.3.0
         version: 3.3.2
@@ -794,7 +794,7 @@ importers:
         version: 6.0.1
       tsup:
         specifier: ^6.6.3
-        version: 6.7.0(postcss@8.5.1)(ts-node@10.9.2(@types/node@22.13.0)(typescript@4.9.5))(typescript@4.9.5)
+        version: 6.7.0(postcss@8.5.1)(ts-node@10.9.2(@types/node@20.17.16)(typescript@4.9.5))(typescript@4.9.5)
       type-fest:
         specifier: ^3.8.0
         version: 3.13.1
@@ -4056,9 +4056,6 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@types/acorn@4.0.6':
-    resolution: {integrity: sha512-veQTnWP+1D/xbxVrPC3zHnCZRjSrKfhbMUlEA43iMZLu7EsnTtkJklIuwrCPbOi8YkvDQAiW05VQQFvvz9oieQ==}
-
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
 
@@ -4116,6 +4113,9 @@ packages:
   '@types/estree@1.0.7':
     resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
 
+  '@types/estree@1.0.8':
+    resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
+
   '@types/extend@3.0.4':
     resolution: {integrity: sha512-ArMouDUTJEz1SQRpFsT2rIw7DeqICFv5aaVzLSIYMYQSLcwcGOfT3VyglQs/p7K3F7fT4zxr0NWxYZIdifD6dA==}
 
@@ -4169,9 +4169,6 @@ packages:
 
   '@types/node@20.5.1':
     resolution: {integrity: sha512-4tT2UrL5LBqDwoed9wZ6N3umC4Yhz3W3FloMmiiG4JwmUJWpie0c7lcnUNd4gtMKuDEO4wRVS8B6Xa0uMRsMKg==}
-
-  '@types/node@22.13.0':
-    resolution: {integrity: sha512-ClIbNe36lawluuvq3+YYhnIN2CELi+6q8NpnM7PYp4hBn/TatfboPgVSm2rwKRfnV2M+Ty9GWDFI64KEe+kysA==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -4426,6 +4423,11 @@ packages:
 
   acorn@8.14.0:
     resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
+  acorn@8.15.0:
+    resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -5676,9 +5678,6 @@ packages:
   estree-util-to-js@2.0.0:
     resolution: {integrity: sha512-WDF+xj5rRWmD5tj6bIqRi6CkLIXbbNQUcxQHzGysQzvHmdYG2G7p/Tf0J0gpxGgkeMZNTIjT/AoSvC9Xehcgdg==}
 
-  estree-util-value-to-estree@3.2.1:
-    resolution: {integrity: sha512-Vt2UOjyPbNQQgT5eJh+K5aATti0OjCIAGc9SgMdOFYbohuifsWclR74l0iZTJwePMgWYdX1hlVS+dedH9XV8kw==}
-
   estree-util-value-to-estree@3.4.0:
     resolution: {integrity: sha512-Zlp+gxis+gCfK12d3Srl2PdX2ybsEA8ZYy6vQGVQTNNYLEGRQQ56XB64bjemN8kxIKXP1nC9ip4Z+ILy9LGzvQ==}
 
@@ -5792,8 +5791,8 @@ packages:
   fd-slicer@1.1.0:
     resolution: {integrity: sha512-cE1qsB/VwyQozZ+q1dGxR8LBYNZeofhEdUNGSMbQD3Gw2lAzX9Zb3uIU6Ebc/Fmyjo9AWWfnn0AUCHqtevs/8g==}
 
-  fdir@6.4.5:
-    resolution: {integrity: sha512-4BG7puHpVsIYxZUbiUE3RqGloLaSSwzYie5jvasC4LWuBWzZawynvYouhjbQKw2JuIGYdm0DzIxl8iVidKlUEw==}
+  fdir@6.4.6:
+    resolution: {integrity: sha512-hiFoqpyZcfNm1yc4u8oWCf9A2c4D3QjCrks3zmoVKVxpQRzmPNar1hUJcBG2RQHvEVGDN+Jm81ZheVLAQMK6+w==}
     peerDependencies:
       picomatch: ^3 || ^4
     peerDependenciesMeta:
@@ -5946,15 +5945,20 @@ packages:
   fumadocs-docgen@2.0.0:
     resolution: {integrity: sha512-jaM/rsCFEvC8rO6Nf0sYXDHp1xOWPAaz0zJHyFyt/CWFSj/nnBaeVIjN/bFX3ZUb93Nnx0I3s42NzAHYKsZI0w==}
 
-  fumadocs-mdx@11.6.6:
-    resolution: {integrity: sha512-CRSrO2C8+hybQq6u97pB/FN3Hq1Y8FbTnqYfr1MzLdLCB7IsbfXu4KkkqJq4Tq4icGb68BpeLWDsSxDmrswNAA==}
+  fumadocs-mdx@11.6.9:
+    resolution: {integrity: sha512-Gm29CFOpvBe8m8r4Es0U6xsVvGaKEMiACsJeUYr6QdZiTYKXkl9a+gI6kkOfPJ/Aoyb561mh3Q0JSONX37GT5w==}
     hasBin: true
     peerDependencies:
       '@fumadocs/mdx-remote': ^1.2.0
       fumadocs-core: ^14.0.0 || ^15.0.0
       next: ^15.3.0
+      vite: 6.x.x
     peerDependenciesMeta:
       '@fumadocs/mdx-remote':
+        optional: true
+      next:
+        optional: true
+      vite:
         optional: true
 
   fumadocs-ui@15.4.2:
@@ -6219,9 +6223,6 @@ packages:
   hast-util-raw@7.2.3:
     resolution: {integrity: sha512-RujVQfVsOrxzPOPSzZFiwofMArbQke6DJjnFfceiEbFh7S05CbPt0cYN+A5YeD3pso0JQk6O1aHBnx9+Pm2uqg==}
 
-  hast-util-to-estree@3.1.1:
-    resolution: {integrity: sha512-IWtwwmPskfSmma9RpzCappDUitC8t5jhAynHhc1m2+5trOgsrp7txscUSavc5Ic8PATyAjfrCK1wgtxh2cICVQ==}
-
   hast-util-to-estree@3.1.3:
     resolution: {integrity: sha512-48+B/rJWAp0jamNbAAf9M7Uf//UVqAoMmgXhBdxTDJLGKY+LRnZ99qcG+Qjl5HfMpYNzS5v4EAwVEF34LeAj7w==}
 
@@ -6233,9 +6234,6 @@ packages:
 
   hast-util-to-html@9.0.5:
     resolution: {integrity: sha512-OguPdidb+fbHQSU4Q4ZiLKnzWo8Wwsf5bZfbvu7//a9oTYoqD/fWpe96NuHkoS9h0ccGOTe0C4NGXdtS0iObOw==}
-
-  hast-util-to-jsx-runtime@2.3.2:
-    resolution: {integrity: sha512-1ngXYb+V9UT5h+PxNRa1O1FYguZK/XL+gkeqvp7EdHlB9oHUG0eYRo/vY5inBdcqo3RkPMC58/H94HvkbfGdyg==}
 
   hast-util-to-jsx-runtime@2.3.6:
     resolution: {integrity: sha512-zl6s8LwNyo1P9uw+XJGvZtdFF1GdAkOg8ujOw+4Pyb76874fLps4ueHXDhXWdk6YHQ6OgUtinliG7RsYvCbbBg==}
@@ -6941,10 +6939,6 @@ packages:
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
-  lru-cache@11.0.0:
-    resolution: {integrity: sha512-Qv32eSV1RSCfhY3fpPE2GNZ8jgM9X7rdAfemLWqTUxwiyIC4jJ6Sy0fZ8H+oLWevO6i4/bizg7c8d8i6bxrzbA==}
-    engines: {node: 20 || >=22}
-
   lru-cache@11.1.0:
     resolution: {integrity: sha512-QIXZUBJUx+2zHUdQujWejBkcD9+cs94tLn0+YL8UrCh+D5sCXZ4c7LaEH48pNwRY3MLDgqUFyhlCyjJPf1WP0A==}
     engines: {node: 20 || >=22}
@@ -7126,11 +7120,11 @@ packages:
   micromark-extension-gfm@3.0.0:
     resolution: {integrity: sha512-vsKArQsicm7t0z2GugkCKtZehqUm31oeGBV/KVSorWSy8ZlNAv7ytjFhvaryUiCUJYqs+NoE6AFhpQvBTM6Q4w==}
 
-  micromark-extension-mdx-expression@3.0.0:
-    resolution: {integrity: sha512-sI0nwhUDz97xyzqJAbHQhp5TfaxEvZZZ2JDqUo+7NvyIYG6BZ5CPPqj2ogUoPJlmXHBnyZUzISg9+oUmU6tUjQ==}
+  micromark-extension-mdx-expression@3.0.1:
+    resolution: {integrity: sha512-dD/ADLJ1AeMvSAKBwO22zG22N4ybhe7kFIZ3LsDI0GlsNr2A3KYxb0LdC1u5rj4Nw+CHKY0RVdnHX8vj8ejm4Q==}
 
-  micromark-extension-mdx-jsx@3.0.1:
-    resolution: {integrity: sha512-vNuFb9czP8QCtAQcEJn0UJQJZA8Dk6DXKBqx+bg/w0WGuSxDxNr7hErW89tHUY31dUW4NqEOWwmEUNhjTFmHkg==}
+  micromark-extension-mdx-jsx@3.0.2:
+    resolution: {integrity: sha512-e5+q1DjMh62LZAJOnDraSSbDMvGJ8x3cbjygy2qFEi7HCeUT4BDKCvMozPozcD6WmOt6sVvYDNBKhFSz3kjOVQ==}
 
   micromark-extension-mdx-md@2.0.0:
     resolution: {integrity: sha512-EpAiszsB3blw4Rpba7xTOUptcFeBFi+6PY8VnJ2hhimH+vCQDirWgsMpz7w1XcZE7LVrSAUGb9VJpG9ghlYvYQ==}
@@ -7153,8 +7147,8 @@ packages:
   micromark-factory-label@2.0.1:
     resolution: {integrity: sha512-VFMekyQExqIW7xIChcXn4ok29YE3rnuyveW3wZQWWqF4Nv9Wk5rgJ99KzPvHjkmPXF93FXIbBp6YdW3t71/7Vg==}
 
-  micromark-factory-mdx-expression@2.0.2:
-    resolution: {integrity: sha512-5E5I2pFzJyg2CtemqAbcyCktpHXuJbABnsb32wX2U8IQKhhVFBqkcZR5LRm1WVoFqa4kTueZK4abep7wdo9nrw==}
+  micromark-factory-mdx-expression@2.0.3:
+    resolution: {integrity: sha512-kQnEtA3vzucU2BkrIa8/VaSAsP+EJ3CKOvhMuJgOEGg9KDC6OAY6nSnNDVRiVNRqj7Y4SlSzcStaH/5jge8JdQ==}
 
   micromark-factory-space@1.1.0:
     resolution: {integrity: sha512-cRzEj7c0OL4Mw2v6nwzttyOZe8XY/Z8G0rzmWQZTBi/jjwyw/U4uqKtUORXQrR5bAZZnbTI/feRV/R7hc4jQYQ==}
@@ -7216,8 +7210,8 @@ packages:
   micromark-util-encode@2.0.1:
     resolution: {integrity: sha512-c3cVx2y4KqUnwopcO9b/SCdo2O67LwJJ/UyqGfbigahfegL9myoEFoDYZgkT7f36T0bLrM9hZTAaAyH+PCAXjw==}
 
-  micromark-util-events-to-acorn@2.0.2:
-    resolution: {integrity: sha512-Fk+xmBrOv9QZnEDguL9OI9/NQQp6Hz4FuQ4YmCb/5V7+9eAh1s6AYSvL20kHkD67YIg7EpE54TiSlcsf3vyZgA==}
+  micromark-util-events-to-acorn@2.0.3:
+    resolution: {integrity: sha512-jmsiEIiZ1n7X1Rr5k8wVExBQCg5jy4UXVADItHmNk1zkwEVhBuIUKRu3fqv+hs4nxLISi2DQGlqIOGiFxgbfHg==}
 
   micromark-util-html-tag-name@1.2.0:
     resolution: {integrity: sha512-VTQzcuQgFUD7yYztuQFKXT49KghjtETQ+Wv/zUjGSGBioZnkA4P1XXZPT1FHeJA6RwRXSF47yvJ1tsJdoxwO+Q==}
@@ -9231,9 +9225,6 @@ packages:
   undici-types@6.19.8:
     resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
-  undici-types@6.20.0:
-    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
-
   unified@10.1.2:
     resolution: {integrity: sha512-pUSWAi/RAnVy1Pif2kAoeWNBa3JVrx0MId2LASj8G+7AiHWoKZNTomq6LG326T68U7/e263X6fTdcXIy7XnF7Q==}
 
@@ -9633,6 +9624,9 @@ packages:
 
   zod@3.25.36:
     resolution: {integrity: sha512-eRFS3i8T0IrpGdL8HQyqFAugGOn7jOjyGgGdtv5NY4Wkhi7lJDk732bNZ609YMIGFbLoaj6J69O1Mura23gfIw==}
+
+  zod@3.25.67:
+    resolution: {integrity: sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -10065,7 +10059,7 @@ snapshots:
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
-      ts-node: 10.9.2(@types/node@20.5.1)(typescript@5.7.3)
+      ts-node: 10.9.2(@types/node@20.17.16)(typescript@5.7.3)
       typescript: 5.7.3
     transitivePeerDependencies:
       - '@swc/core'
@@ -10114,9 +10108,9 @@ snapshots:
     dependencies:
       chalk: 4.1.2
 
-  '@contentlayer2/cli@0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)':
+  '@contentlayer2/cli@0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)':
     dependencies:
-      '@contentlayer2/core': 0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
+      '@contentlayer2/core': 0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
       '@contentlayer2/utils': 0.4.3
       clipanion: 3.2.1(typanion@3.14.0)
       typanion: 3.14.0
@@ -10127,9 +10121,9 @@ snapshots:
       - markdown-wasm
       - supports-color
 
-  '@contentlayer2/client@0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)':
+  '@contentlayer2/client@0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)':
     dependencies:
-      '@contentlayer2/core': 0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
+      '@contentlayer2/core': 0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
     transitivePeerDependencies:
       - '@effect-ts/otel-node'
       - acorn
@@ -10137,13 +10131,13 @@ snapshots:
       - markdown-wasm
       - supports-color
 
-  '@contentlayer2/core@0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)':
+  '@contentlayer2/core@0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)':
     dependencies:
       '@contentlayer2/utils': 0.4.3
       camel-case: 4.1.2
       comment-json: 4.2.5
       gray-matter: 4.0.3
-      mdx-bundler: 10.0.3(acorn@8.14.0)(esbuild@0.25.0)
+      mdx-bundler: 10.0.3(acorn@8.15.0)(esbuild@0.25.0)
       rehype-stringify: 10.0.1
       remark-frontmatter: 5.0.0
       remark-parse: 11.0.0
@@ -10159,9 +10153,9 @@ snapshots:
       - acorn
       - supports-color
 
-  '@contentlayer2/source-files@0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)':
+  '@contentlayer2/source-files@0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)':
     dependencies:
-      '@contentlayer2/core': 0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
+      '@contentlayer2/core': 0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
       '@contentlayer2/utils': 0.4.3
       chokidar: 3.6.0
       fast-glob: 3.3.3
@@ -10171,7 +10165,7 @@ snapshots:
       ts-pattern: 5.6.2
       unified: 11.0.5
       yaml: 2.7.0
-      zod: 3.24.1
+      zod: 3.25.67
     transitivePeerDependencies:
       - '@effect-ts/otel-node'
       - acorn
@@ -10179,10 +10173,10 @@ snapshots:
       - markdown-wasm
       - supports-color
 
-  '@contentlayer2/source-remote-files@0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)':
+  '@contentlayer2/source-remote-files@0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)':
     dependencies:
-      '@contentlayer2/core': 0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
-      '@contentlayer2/source-files': 0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
+      '@contentlayer2/core': 0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
+      '@contentlayer2/source-files': 0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
       '@contentlayer2/utils': 0.4.3
     transitivePeerDependencies:
       - '@effect-ts/otel-node'
@@ -11011,14 +11005,6 @@ snapshots:
       '@inquirer/type': 3.0.4(@types/node@20.17.16)
     optionalDependencies:
       '@types/node': 20.17.16
-    optional: true
-
-  '@inquirer/confirm@5.1.6(@types/node@22.13.0)':
-    dependencies:
-      '@inquirer/core': 10.1.7(@types/node@22.13.0)
-      '@inquirer/type': 3.0.4(@types/node@22.13.0)
-    optionalDependencies:
-      '@types/node': 22.13.0
 
   '@inquirer/core@10.1.7(@types/node@20.17.16)':
     dependencies:
@@ -11032,31 +11018,12 @@ snapshots:
       yoctocolors-cjs: 2.1.2
     optionalDependencies:
       '@types/node': 20.17.16
-    optional: true
-
-  '@inquirer/core@10.1.7(@types/node@22.13.0)':
-    dependencies:
-      '@inquirer/figures': 1.0.10
-      '@inquirer/type': 3.0.4(@types/node@22.13.0)
-      ansi-escapes: 4.3.2
-      cli-width: 4.1.0
-      mute-stream: 2.0.0
-      signal-exit: 4.1.0
-      wrap-ansi: 6.2.0
-      yoctocolors-cjs: 2.1.2
-    optionalDependencies:
-      '@types/node': 22.13.0
 
   '@inquirer/figures@1.0.10': {}
 
   '@inquirer/type@3.0.4(@types/node@20.17.16)':
     optionalDependencies:
       '@types/node': 20.17.16
-    optional: true
-
-  '@inquirer/type@3.0.4(@types/node@22.13.0)':
-    optionalDependencies:
-      '@types/node': 22.13.0
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -11170,9 +11137,9 @@ snapshots:
       jju: 1.4.0
       read-yaml-file: 1.1.0
 
-  '@mdx-js/esbuild@3.1.0(acorn@8.14.0)(esbuild@0.25.0)':
+  '@mdx-js/esbuild@3.1.0(acorn@8.15.0)(esbuild@0.25.0)':
     dependencies:
-      '@mdx-js/mdx': 3.1.0(acorn@8.14.0)
+      '@mdx-js/mdx': 3.1.0(acorn@8.15.0)
       '@types/unist': 3.0.3
       esbuild: 0.25.0
       source-map: 0.7.4
@@ -11182,9 +11149,9 @@ snapshots:
       - acorn
       - supports-color
 
-  '@mdx-js/mdx@3.1.0(acorn@8.14.0)':
+  '@mdx-js/mdx@3.1.0(acorn@8.15.0)':
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       '@types/estree-jsx': 1.0.5
       '@types/hast': 3.0.4
       '@types/mdx': 2.0.13
@@ -11193,15 +11160,15 @@ snapshots:
       estree-util-is-identifier-name: 3.0.0
       estree-util-scope: 1.0.0
       estree-walker: 3.0.3
-      hast-util-to-jsx-runtime: 2.3.2
+      hast-util-to-jsx-runtime: 2.3.6
       markdown-extensions: 2.0.0
       recma-build-jsx: 1.0.0
-      recma-jsx: 1.0.0(acorn@8.14.0)
+      recma-jsx: 1.0.0(acorn@8.15.0)
       recma-stringify: 1.0.0
       rehype-recma: 1.0.0
       remark-mdx: 3.1.0
       remark-parse: 11.0.0
-      remark-rehype: 11.1.1
+      remark-rehype: 11.1.2
       source-map: 0.7.4
       unified: 11.0.5
       unist-util-position-from-estree: 2.0.0
@@ -13537,10 +13504,6 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@types/acorn@4.0.6':
-    dependencies:
-      '@types/estree': 1.0.7
-
   '@types/babel__core@7.20.5':
     dependencies:
       '@babel/parser': 7.26.7
@@ -13596,11 +13559,13 @@ snapshots:
 
   '@types/estree-jsx@1.0.5':
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
 
   '@types/estree@1.0.6': {}
 
   '@types/estree@1.0.7': {}
+
+  '@types/estree@1.0.8': {}
 
   '@types/extend@3.0.4': {}
 
@@ -13654,11 +13619,6 @@ snapshots:
       undici-types: 6.19.8
 
   '@types/node@20.5.1': {}
-
-  '@types/node@22.13.0':
-    dependencies:
-      undici-types: 6.20.0
-    optional: true
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -13951,11 +13911,17 @@ snapshots:
     dependencies:
       acorn: 8.14.0
 
+  acorn-jsx@5.3.2(acorn@8.15.0):
+    dependencies:
+      acorn: 8.15.0
+
   acorn-walk@8.3.4:
     dependencies:
       acorn: 8.14.0
 
   acorn@8.14.0: {}
+
+  acorn@8.15.0: {}
 
   agent-base@7.1.3: {}
 
@@ -14506,13 +14472,13 @@ snapshots:
 
   content-type@1.0.5: {}
 
-  contentlayer2@0.4.6(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0):
+  contentlayer2@0.4.6(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0):
     dependencies:
-      '@contentlayer2/cli': 0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
-      '@contentlayer2/client': 0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
-      '@contentlayer2/core': 0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
-      '@contentlayer2/source-files': 0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
-      '@contentlayer2/source-remote-files': 0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
+      '@contentlayer2/cli': 0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
+      '@contentlayer2/client': 0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
+      '@contentlayer2/core': 0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
+      '@contentlayer2/source-files': 0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
+      '@contentlayer2/source-remote-files': 0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
       '@contentlayer2/utils': 0.4.3
     transitivePeerDependencies:
       - '@effect-ts/otel-node'
@@ -14553,7 +14519,7 @@ snapshots:
     dependencies:
       '@types/node': 20.5.1
       cosmiconfig: 8.3.6(typescript@5.7.3)
-      ts-node: 10.9.2(@types/node@20.5.1)(typescript@5.7.3)
+      ts-node: 10.9.2(@types/node@20.17.16)(typescript@5.7.3)
       typescript: 5.7.3
 
   cosmiconfig@8.3.6(typescript@4.9.5):
@@ -15102,7 +15068,7 @@ snapshots:
   esast-util-from-js@2.0.1:
     dependencies:
       '@types/estree-jsx': 1.0.5
-      acorn: 8.14.0
+      acorn: 8.15.0
       esast-util-from-estree: 2.0.0
       vfile-message: 4.0.2
 
@@ -15317,7 +15283,7 @@ snapshots:
       debug: 4.4.0
       enhanced-resolve: 5.16.1
       eslint: 8.57.1
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@5.61.0(eslint@8.57.1)(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@5.61.0(eslint@8.57.1)(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@5.61.0(eslint@8.57.1)(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@8.57.1))(eslint@8.57.1)
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.61.0(eslint@8.57.1)(typescript@5.7.3))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.1)
       fast-glob: 3.3.3
       get-tsconfig: 4.7.5
@@ -15334,7 +15300,7 @@ snapshots:
       debug: 4.4.0
       enhanced-resolve: 5.16.1
       eslint: 9.19.0(jiti@2.4.2)
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.33.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@9.19.0(jiti@2.4.2))
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.33.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@8.33.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@9.19.0(jiti@2.4.2)))(eslint@9.19.0(jiti@2.4.2))
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.33.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-typescript@3.6.1)(eslint@9.19.0(jiti@2.4.2))
       fast-glob: 3.3.3
       get-tsconfig: 4.7.5
@@ -15346,7 +15312,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@5.61.0(eslint@8.57.1)(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.1):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@5.61.0(eslint@8.57.1)(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@5.61.0(eslint@8.57.1)(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@8.57.1))(eslint@8.57.1):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -15357,7 +15323,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.33.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@9.19.0(jiti@2.4.2)):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.33.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@8.33.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@9.19.0(jiti@2.4.2)))(eslint@9.19.0(jiti@2.4.2)):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -15379,7 +15345,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@5.61.0(eslint@8.57.1)(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@5.61.0(eslint@8.57.1)(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@5.61.0(eslint@8.57.1)(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@8.57.1))(eslint@8.57.1)
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -15408,7 +15374,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.19.0(jiti@2.4.2)
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.33.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@9.19.0(jiti@2.4.2))
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.33.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@8.33.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@9.19.0(jiti@2.4.2)))(eslint@9.19.0(jiti@2.4.2))
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -15516,11 +15482,11 @@ snapshots:
       string.prototype.matchall: 4.0.12
       string.prototype.repeat: 1.0.0
 
-  eslint-plugin-tailwindcss@3.13.1(tailwindcss@3.4.6(ts-node@10.9.2(@types/node@20.17.16)(typescript@5.7.3))):
+  eslint-plugin-tailwindcss@3.13.1(tailwindcss@3.4.6(ts-node@10.9.2(@types/node@20.5.1)(typescript@5.7.3))):
     dependencies:
       fast-glob: 3.3.3
       postcss: 8.5.1
-      tailwindcss: 3.4.6(ts-node@10.9.2(@types/node@20.17.16)(typescript@5.7.3))
+      tailwindcss: 3.4.6(ts-node@10.9.2(@types/node@20.5.1)(typescript@5.7.3))
 
   eslint-plugin-turbo@1.13.4(eslint@8.57.1):
     dependencies:
@@ -15664,7 +15630,7 @@ snapshots:
 
   estree-util-scope@1.0.0:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       devlop: 1.1.0
 
   estree-util-to-js@2.0.0:
@@ -15673,13 +15639,9 @@ snapshots:
       astring: 1.9.0
       source-map: 0.7.4
 
-  estree-util-value-to-estree@3.2.1:
-    dependencies:
-      '@types/estree': 1.0.7
-
   estree-util-value-to-estree@3.4.0:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
 
   estree-util-visit@2.0.0:
     dependencies:
@@ -15688,7 +15650,7 @@ snapshots:
 
   estree-walker@3.0.3:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
 
   esutils@2.0.3: {}
 
@@ -15842,7 +15804,7 @@ snapshots:
     dependencies:
       pend: 1.2.0
 
-  fdir@6.4.5(picomatch@4.0.2):
+  fdir@6.4.6(picomatch@4.0.2):
     optionalDependencies:
       picomatch: 4.0.2
 
@@ -15932,6 +15894,16 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
+  framer-motion@12.15.0(@emotion/is-prop-valid@1.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      motion-dom: 12.15.0
+      motion-utils: 12.12.1
+      tslib: 2.8.1
+    optionalDependencies:
+      '@emotion/is-prop-valid': 1.3.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+
   framer-motion@12.15.0(@emotion/is-prop-valid@1.3.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       motion-dom: 12.15.0
@@ -16004,23 +15976,24 @@ snapshots:
       unist-util-visit: 5.0.0
       zod: 3.25.36
 
-  fumadocs-mdx@11.6.6(acorn@8.14.0)(fumadocs-core@15.4.2(@types/react@19.1.2)(next@15.3.1(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(next@15.3.1(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)):
+  fumadocs-mdx@11.6.9(acorn@8.15.0)(fumadocs-core@15.4.2(@types/react@19.1.2)(next@15.3.1(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(next@15.3.1(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@5.4.15(@types/node@20.17.16)(lightningcss@1.29.1)):
     dependencies:
-      '@mdx-js/mdx': 3.1.0(acorn@8.14.0)
+      '@mdx-js/mdx': 3.1.0(acorn@8.15.0)
       '@standard-schema/spec': 1.0.0
       chokidar: 4.0.3
       esbuild: 0.25.5
       estree-util-value-to-estree: 3.4.0
       fumadocs-core: 15.4.2(@types/react@19.1.2)(next@15.3.1(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      gray-matter: 4.0.3
       js-yaml: 4.1.0
       lru-cache: 11.1.0
-      next: 15.3.1(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       picocolors: 1.1.1
       tinyexec: 1.0.1
       tinyglobby: 0.2.14
       unist-util-visit: 5.0.0
-      zod: 3.25.36
+      zod: 3.25.67
+    optionalDependencies:
+      next: 15.3.1(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      vite: 5.4.15(@types/node@20.17.16)(lightningcss@1.29.1)
     transitivePeerDependencies:
       - acorn
       - supports-color
@@ -16379,27 +16352,6 @@ snapshots:
       web-namespaces: 2.0.1
       zwitch: 2.0.4
 
-  hast-util-to-estree@3.1.1:
-    dependencies:
-      '@types/estree': 1.0.7
-      '@types/estree-jsx': 1.0.5
-      '@types/hast': 3.0.4
-      comma-separated-tokens: 2.0.3
-      devlop: 1.1.0
-      estree-util-attach-comments: 3.0.0
-      estree-util-is-identifier-name: 3.0.0
-      hast-util-whitespace: 3.0.0
-      mdast-util-mdx-expression: 2.0.1
-      mdast-util-mdx-jsx: 3.2.0
-      mdast-util-mdxjs-esm: 2.0.1
-      property-information: 6.5.0
-      space-separated-tokens: 2.0.2
-      style-to-object: 1.0.8
-      unist-util-position: 5.0.0
-      zwitch: 2.0.4
-    transitivePeerDependencies:
-      - supports-color
-
   hast-util-to-estree@3.1.3:
     dependencies:
       '@types/estree': 1.0.7
@@ -16462,26 +16414,6 @@ snapshots:
       space-separated-tokens: 2.0.2
       stringify-entities: 4.0.4
       zwitch: 2.0.4
-
-  hast-util-to-jsx-runtime@2.3.2:
-    dependencies:
-      '@types/estree': 1.0.7
-      '@types/hast': 3.0.4
-      '@types/unist': 3.0.3
-      comma-separated-tokens: 2.0.3
-      devlop: 1.1.0
-      estree-util-is-identifier-name: 3.0.0
-      hast-util-whitespace: 3.0.0
-      mdast-util-mdx-expression: 2.0.1
-      mdast-util-mdx-jsx: 3.2.0
-      mdast-util-mdxjs-esm: 2.0.1
-      property-information: 6.5.0
-      space-separated-tokens: 2.0.2
-      style-to-object: 1.0.8
-      unist-util-position: 5.0.0
-      vfile-message: 4.0.2
-    transitivePeerDependencies:
-      - supports-color
 
   hast-util-to-jsx-runtime@2.3.6:
     dependencies:
@@ -17127,8 +17059,6 @@ snapshots:
 
   lru-cache@10.4.3: {}
 
-  lru-cache@11.0.0: {}
-
   lru-cache@11.1.0: {}
 
   lru-cache@4.1.5:
@@ -17393,12 +17323,12 @@ snapshots:
       unist-util-is: 5.2.1
       unist-util-visit: 4.1.2
 
-  mdx-bundler@10.0.3(acorn@8.14.0)(esbuild@0.25.0):
+  mdx-bundler@10.0.3(acorn@8.15.0)(esbuild@0.25.0):
     dependencies:
       '@babel/runtime': 7.26.7
       '@esbuild-plugins/node-resolve': 0.2.2(esbuild@0.25.0)
       '@fal-works/esbuild-plugin-global-externals': 2.1.2
-      '@mdx-js/esbuild': 3.1.0(acorn@8.14.0)(esbuild@0.25.0)
+      '@mdx-js/esbuild': 3.1.0(acorn@8.15.0)(esbuild@0.25.0)
       esbuild: 0.25.0
       gray-matter: 4.0.3
       remark-frontmatter: 5.0.0
@@ -17440,7 +17370,7 @@ snapshots:
 
   micromark-core-commonmark@1.1.0:
     dependencies:
-      decode-named-character-reference: 1.1.0
+      decode-named-character-reference: 1.0.2
       micromark-factory-destination: 1.1.0
       micromark-factory-label: 1.1.0
       micromark-factory-space: 1.1.0
@@ -17541,27 +17471,26 @@ snapshots:
       micromark-util-combine-extensions: 2.0.1
       micromark-util-types: 2.0.2
 
-  micromark-extension-mdx-expression@3.0.0:
+  micromark-extension-mdx-expression@3.0.1:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       devlop: 1.1.0
-      micromark-factory-mdx-expression: 2.0.2
+      micromark-factory-mdx-expression: 2.0.3
       micromark-factory-space: 2.0.1
       micromark-util-character: 2.1.1
-      micromark-util-events-to-acorn: 2.0.2
+      micromark-util-events-to-acorn: 2.0.3
       micromark-util-symbol: 2.0.1
       micromark-util-types: 2.0.2
 
-  micromark-extension-mdx-jsx@3.0.1:
+  micromark-extension-mdx-jsx@3.0.2:
     dependencies:
-      '@types/acorn': 4.0.6
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       devlop: 1.1.0
       estree-util-is-identifier-name: 3.0.0
-      micromark-factory-mdx-expression: 2.0.2
+      micromark-factory-mdx-expression: 2.0.3
       micromark-factory-space: 2.0.1
       micromark-util-character: 2.1.1
-      micromark-util-events-to-acorn: 2.0.2
+      micromark-util-events-to-acorn: 2.0.3
       micromark-util-symbol: 2.0.1
       micromark-util-types: 2.0.2
       vfile-message: 4.0.2
@@ -17572,11 +17501,11 @@ snapshots:
 
   micromark-extension-mdxjs-esm@3.0.0:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.3
       micromark-util-character: 2.1.1
-      micromark-util-events-to-acorn: 2.0.2
+      micromark-util-events-to-acorn: 2.0.3
       micromark-util-symbol: 2.0.1
       micromark-util-types: 2.0.2
       unist-util-position-from-estree: 2.0.0
@@ -17584,10 +17513,10 @@ snapshots:
 
   micromark-extension-mdxjs@3.0.0:
     dependencies:
-      acorn: 8.14.0
-      acorn-jsx: 5.3.2(acorn@8.14.0)
-      micromark-extension-mdx-expression: 3.0.0
-      micromark-extension-mdx-jsx: 3.0.1
+      acorn: 8.15.0
+      acorn-jsx: 5.3.2(acorn@8.15.0)
+      micromark-extension-mdx-expression: 3.0.1
+      micromark-extension-mdx-jsx: 3.0.2
       micromark-extension-mdx-md: 2.0.0
       micromark-extension-mdxjs-esm: 3.0.0
       micromark-util-combine-extensions: 2.0.1
@@ -17619,13 +17548,13 @@ snapshots:
       micromark-util-symbol: 2.0.1
       micromark-util-types: 2.0.2
 
-  micromark-factory-mdx-expression@2.0.2:
+  micromark-factory-mdx-expression@2.0.3:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       devlop: 1.1.0
       micromark-factory-space: 2.0.1
       micromark-util-character: 2.1.1
-      micromark-util-events-to-acorn: 2.0.2
+      micromark-util-events-to-acorn: 2.0.3
       micromark-util-symbol: 2.0.1
       micromark-util-types: 2.0.2
       unist-util-position-from-estree: 2.0.0
@@ -17735,10 +17664,9 @@ snapshots:
 
   micromark-util-encode@2.0.1: {}
 
-  micromark-util-events-to-acorn@2.0.2:
+  micromark-util-events-to-acorn@2.0.3:
     dependencies:
-      '@types/acorn': 4.0.6
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       '@types/unist': 3.0.3
       devlop: 1.1.0
       estree-util-visit: 2.0.0
@@ -17917,6 +17845,15 @@ snapshots:
 
   motion-utils@12.12.1: {}
 
+  motion@12.15.0(@emotion/is-prop-valid@1.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      framer-motion: 12.15.0(@emotion/is-prop-valid@1.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      tslib: 2.8.1
+    optionalDependencies:
+      '@emotion/is-prop-valid': 1.3.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+
   motion@12.15.0(@emotion/is-prop-valid@1.3.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       framer-motion: 12.15.0(@emotion/is-prop-valid@1.3.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -17929,6 +17866,31 @@ snapshots:
   mri@1.2.0: {}
 
   ms@2.1.3: {}
+
+  msw@2.7.1(@types/node@20.17.16)(typescript@4.9.5):
+    dependencies:
+      '@bundled-es-modules/cookie': 2.0.1
+      '@bundled-es-modules/statuses': 1.0.1
+      '@bundled-es-modules/tough-cookie': 0.1.6
+      '@inquirer/confirm': 5.1.6(@types/node@20.17.16)
+      '@mswjs/interceptors': 0.37.6
+      '@open-draft/deferred-promise': 2.2.0
+      '@open-draft/until': 2.1.0
+      '@types/cookie': 0.6.0
+      '@types/statuses': 2.0.5
+      graphql: 16.10.0
+      headers-polyfill: 4.0.3
+      is-node-process: 1.2.0
+      outvariant: 1.4.3
+      path-to-regexp: 6.3.0
+      picocolors: 1.1.1
+      strict-event-emitter: 0.5.1
+      type-fest: 4.33.0
+      yargs: 17.7.2
+    optionalDependencies:
+      typescript: 4.9.5
+    transitivePeerDependencies:
+      - '@types/node'
 
   msw@2.7.1(@types/node@20.17.16)(typescript@5.7.3):
     dependencies:
@@ -17956,31 +17918,6 @@ snapshots:
       - '@types/node'
     optional: true
 
-  msw@2.7.1(@types/node@22.13.0)(typescript@4.9.5):
-    dependencies:
-      '@bundled-es-modules/cookie': 2.0.1
-      '@bundled-es-modules/statuses': 1.0.1
-      '@bundled-es-modules/tough-cookie': 0.1.6
-      '@inquirer/confirm': 5.1.6(@types/node@22.13.0)
-      '@mswjs/interceptors': 0.37.6
-      '@open-draft/deferred-promise': 2.2.0
-      '@open-draft/until': 2.1.0
-      '@types/cookie': 0.6.0
-      '@types/statuses': 2.0.5
-      graphql: 16.10.0
-      headers-polyfill: 4.0.3
-      is-node-process: 1.2.0
-      outvariant: 1.4.3
-      path-to-regexp: 6.3.0
-      picocolors: 1.1.1
-      strict-event-emitter: 0.5.1
-      type-fest: 4.33.0
-      yargs: 17.7.2
-    optionalDependencies:
-      typescript: 4.9.5
-    transitivePeerDependencies:
-      - '@types/node'
-
   mute-stream@2.0.0: {}
 
   mz@2.7.0:
@@ -18003,11 +17940,11 @@ snapshots:
 
   netmask@2.0.2: {}
 
-  next-contentlayer2@0.4.6(acorn@8.14.0)(contentlayer2@0.4.6(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0))(esbuild@0.25.0)(markdown-wasm@1.2.0)(next@14.3.0-canary.43(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  next-contentlayer2@0.4.6(acorn@8.15.0)(contentlayer2@0.4.6(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0))(esbuild@0.25.0)(markdown-wasm@1.2.0)(next@14.3.0-canary.43(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@contentlayer2/core': 0.4.3(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
+      '@contentlayer2/core': 0.4.3(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
       '@contentlayer2/utils': 0.4.3
-      contentlayer2: 0.4.6(acorn@8.14.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
+      contentlayer2: 0.4.6(acorn@8.15.0)(esbuild@0.25.0)(markdown-wasm@1.2.0)
       next: 14.3.0-canary.43(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -18376,7 +18313,7 @@ snapshots:
 
   path-scurry@2.0.0:
     dependencies:
-      lru-cache: 11.0.0
+      lru-cache: 11.1.0
       minipass: 7.1.2
 
   path-to-regexp@6.3.0: {}
@@ -18423,13 +18360,13 @@ snapshots:
       camelcase-css: 2.0.1
       postcss: 8.5.1
 
-  postcss-load-config@3.1.4(postcss@8.5.1)(ts-node@10.9.2(@types/node@22.13.0)(typescript@4.9.5)):
+  postcss-load-config@3.1.4(postcss@8.5.1)(ts-node@10.9.2(@types/node@20.17.16)(typescript@4.9.5)):
     dependencies:
       lilconfig: 2.1.0
       yaml: 1.10.2
     optionalDependencies:
       postcss: 8.5.1
-      ts-node: 10.9.2(@types/node@22.13.0)(typescript@4.9.5)
+      ts-node: 10.9.2(@types/node@20.17.16)(typescript@4.9.5)
 
   postcss-load-config@4.0.2(postcss@8.5.1)(ts-node@10.9.2(@types/node@17.0.45)(typescript@5.7.3)):
     dependencies:
@@ -18439,13 +18376,13 @@ snapshots:
       postcss: 8.5.1
       ts-node: 10.9.2(@types/node@17.0.45)(typescript@5.7.3)
 
-  postcss-load-config@4.0.2(postcss@8.5.1)(ts-node@10.9.2(@types/node@20.17.16)(typescript@5.7.3)):
+  postcss-load-config@4.0.2(postcss@8.5.1)(ts-node@10.9.2(@types/node@20.5.1)(typescript@5.7.3)):
     dependencies:
       lilconfig: 3.1.3
       yaml: 2.7.0
     optionalDependencies:
       postcss: 8.5.1
-      ts-node: 10.9.2(@types/node@20.5.1)(typescript@5.7.3)
+      ts-node: 10.9.2(@types/node@20.17.16)(typescript@5.7.3)
 
   postcss-nested@6.2.0(postcss@8.5.1):
     dependencies:
@@ -18862,13 +18799,13 @@ snapshots:
 
   recma-build-jsx@1.0.0:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       estree-util-build-jsx: 3.0.1
       vfile: 6.0.3
 
-  recma-jsx@1.0.0(acorn@8.14.0):
+  recma-jsx@1.0.0(acorn@8.15.0):
     dependencies:
-      acorn-jsx: 5.3.2(acorn@8.14.0)
+      acorn-jsx: 5.3.2(acorn@8.15.0)
       estree-util-to-js: 2.0.0
       recma-parse: 1.0.0
       recma-stringify: 1.0.0
@@ -18878,14 +18815,14 @@ snapshots:
 
   recma-parse@1.0.0:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       esast-util-from-js: 2.0.1
       unified: 11.0.5
       vfile: 6.0.3
 
   recma-stringify@1.0.0:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       estree-util-to-js: 2.0.0
       unified: 11.0.5
       vfile: 6.0.3
@@ -18993,9 +18930,9 @@ snapshots:
 
   rehype-recma@1.0.0:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       '@types/hast': 3.0.4
-      hast-util-to-estree: 3.1.1
+      hast-util-to-estree: 3.1.3
     transitivePeerDependencies:
       - supports-color
 
@@ -19058,7 +18995,7 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.4
       estree-util-is-identifier-name: 3.0.0
-      estree-util-value-to-estree: 3.2.1
+      estree-util-value-to-estree: 3.4.0
       toml: 3.0.0
       unified: 11.0.5
       yaml: 2.7.0
@@ -19808,9 +19745,9 @@ snapshots:
 
   tailwind-merge@3.3.0: {}
 
-  tailwindcss-animate@1.0.7(tailwindcss@3.4.6(ts-node@10.9.2(@types/node@20.17.16)(typescript@5.7.3))):
+  tailwindcss-animate@1.0.7(tailwindcss@3.4.6(ts-node@10.9.2(@types/node@20.5.1)(typescript@5.7.3))):
     dependencies:
-      tailwindcss: 3.4.6(ts-node@10.9.2(@types/node@20.17.16)(typescript@5.7.3))
+      tailwindcss: 3.4.6(ts-node@10.9.2(@types/node@20.5.1)(typescript@5.7.3))
 
   tailwindcss@3.4.6(ts-node@10.9.2(@types/node@17.0.45)(typescript@5.7.3)):
     dependencies:
@@ -19839,7 +19776,7 @@ snapshots:
     transitivePeerDependencies:
       - ts-node
 
-  tailwindcss@3.4.6(ts-node@10.9.2(@types/node@20.17.16)(typescript@5.7.3)):
+  tailwindcss@3.4.6(ts-node@10.9.2(@types/node@20.5.1)(typescript@5.7.3)):
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -19858,7 +19795,7 @@ snapshots:
       postcss: 8.5.1
       postcss-import: 15.1.0(postcss@8.5.1)
       postcss-js: 4.0.1(postcss@8.5.1)
-      postcss-load-config: 4.0.2(postcss@8.5.1)(ts-node@10.9.2(@types/node@20.17.16)(typescript@5.7.3))
+      postcss-load-config: 4.0.2(postcss@8.5.1)(ts-node@10.9.2(@types/node@20.5.1)(typescript@5.7.3))
       postcss-nested: 6.2.0(postcss@8.5.1)
       postcss-selector-parser: 6.1.2
       resolve: 1.22.10
@@ -19941,7 +19878,7 @@ snapshots:
 
   tinyglobby@0.2.14:
     dependencies:
-      fdir: 6.4.5(picomatch@4.0.2)
+      fdir: 6.4.6(picomatch@4.0.2)
       picomatch: 4.0.2
 
   tinypool@1.0.2: {}
@@ -20039,32 +19976,14 @@ snapshots:
       yn: 3.1.1
     optional: true
 
-  ts-node@10.9.2(@types/node@20.5.1)(typescript@5.7.3):
+  ts-node@10.9.2(@types/node@20.17.16)(typescript@4.9.5):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.5.1
-      acorn: 8.14.0
-      acorn-walk: 8.3.4
-      arg: 4.1.3
-      create-require: 1.1.1
-      diff: 4.0.2
-      make-error: 1.3.6
-      typescript: 5.7.3
-      v8-compile-cache-lib: 3.0.1
-      yn: 3.1.1
-
-  ts-node@10.9.2(@types/node@22.13.0)(typescript@4.9.5):
-    dependencies:
-      '@cspotcode/source-map-support': 0.8.1
-      '@tsconfig/node10': 1.0.11
-      '@tsconfig/node12': 1.0.11
-      '@tsconfig/node14': 1.0.3
-      '@tsconfig/node16': 1.0.4
-      '@types/node': 22.13.0
+      '@types/node': 20.17.16
       acorn: 8.14.0
       acorn-walk: 8.3.4
       arg: 4.1.3
@@ -20075,6 +19994,24 @@ snapshots:
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     optional: true
+
+  ts-node@10.9.2(@types/node@20.17.16)(typescript@5.7.3):
+    dependencies:
+      '@cspotcode/source-map-support': 0.8.1
+      '@tsconfig/node10': 1.0.11
+      '@tsconfig/node12': 1.0.11
+      '@tsconfig/node14': 1.0.3
+      '@tsconfig/node16': 1.0.4
+      '@types/node': 20.17.16
+      acorn: 8.14.0
+      acorn-walk: 8.3.4
+      arg: 4.1.3
+      create-require: 1.1.1
+      diff: 4.0.2
+      make-error: 1.3.6
+      typescript: 5.7.3
+      v8-compile-cache-lib: 3.0.1
+      yn: 3.1.1
 
   ts-pattern@5.6.2: {}
 
@@ -20101,7 +20038,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsup@6.7.0(postcss@8.5.1)(ts-node@10.9.2(@types/node@22.13.0)(typescript@4.9.5))(typescript@4.9.5):
+  tsup@6.7.0(postcss@8.5.1)(ts-node@10.9.2(@types/node@20.17.16)(typescript@4.9.5))(typescript@4.9.5):
     dependencies:
       bundle-require: 4.2.1(esbuild@0.17.19)
       cac: 6.7.14
@@ -20111,7 +20048,7 @@ snapshots:
       execa: 5.1.1
       globby: 11.1.0
       joycon: 3.1.1
-      postcss-load-config: 3.1.4(postcss@8.5.1)(ts-node@10.9.2(@types/node@22.13.0)(typescript@4.9.5))
+      postcss-load-config: 3.1.4(postcss@8.5.1)(ts-node@10.9.2(@types/node@20.17.16)(typescript@4.9.5))
       resolve-from: 5.0.0
       rollup: 3.29.5
       source-map: 0.8.0-beta.0
@@ -20288,9 +20225,6 @@ snapshots:
       through: 2.3.8
 
   undici-types@6.19.8: {}
-
-  undici-types@6.20.0:
-    optional: true
 
   unified@10.1.2:
     dependencies:
@@ -20780,5 +20714,7 @@ snapshots:
   zod@3.24.1: {}
 
   zod@3.25.36: {}
+
+  zod@3.25.67: {}
 
   zwitch@2.0.4: {}
